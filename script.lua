@@ -1,7 +1,7 @@
 s = _G.Key or ""
-if game:HttpGet("https://WEBSITENAME.heroku.com/bot.js?key="..s) == "Whitelisted!" then
+if game:HttpGet("https://github.com/DE4Dz/Whitelist/blob/main/bot.js?key="..s) == "Whitelisted!" then
 print("Whitelisted")
-elseif game:HttpGet("https://WEBSITENAME.heroku.com/bot.js?key="..s) == "Not Whitelisted"
+elseif game:HttpGet("https://github.com/DE4Dz/Whitelist/blob/main/bot.js?key="..s) == "Not Whitelisted"
 game.Players.LocalPlayer:Kick("Not Whitelisted")
 else
 game.Players.LocalPlayer:Kick("Not Whitelisted")
